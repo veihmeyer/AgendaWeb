@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #D3D3D3;
+}
+caption{
+    caption-side: top;
+    color: #2c2a2a;
+    font-weight: bold;
+    font-size: 30px;
+     text-align: center;
+}
+body {
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid #808080;
+    width: 70%;
+    
+}
+tbody {
+    text-align: center;
+    font-size: 90%;
+    letter-spacing: 1px;
+}
+thead {
+    text-align: center;
+    color: #867979;
+    font-size: 30px;
+}
+td {
+    text-align: center;
+    border: 1px solid #000000
